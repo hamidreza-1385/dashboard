@@ -1,6 +1,6 @@
 const MainDash = () => {
     return (
-        <div className="dashboard-container">
+        <div className="dashboard-container ml">
             maindashbord
         </div>
     );
