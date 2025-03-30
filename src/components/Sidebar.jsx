@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 
 const Sidebar = () => {
     return (
-        <div className="sidebar bg-white text-muted position-fixed left-0 start-0">
+        <div className="sidebar bg-white text-muted position-fixed left-4 top-4 rounded-2 start-0">
             <h2>داشبورد متریال</h2>
             <ul className='bg-white text-'>
                 <li className='my-4 h-sidebar-item'><Link className='custom-link ' to="/dashboard">داشبورد</Link></li>

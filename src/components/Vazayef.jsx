@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom';
 function VazayefList() {
     return (
         <div className="d-flex align-items-start border rounded p-3 shadow-sm bg-light justify-content-end w-100" >
-            <div>
-                <h6 className="text-success mb-1 text-end px-4 py-2">تاریخ</h6>
+            <div >
+                <h6 className="text-success mb-1 text-end px-4 py-2">لیست وظایف</h6>
                 <div className="fw-bold text-end mx-4">2 کار</div>
                 <div className="text-muted text-end mx-4">1کار انجام نشده</div>
                 <Link to={'/listvazayef'}><div className="text-secondary mt-1 text-decoration-underline">مشاهده</div></Link>

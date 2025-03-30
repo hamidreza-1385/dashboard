@@ -1,5 +1,6 @@
 import Sidebar from '../components/Sidebar';
 import Header from '../components/Header';
+import dImg from '../img/d.png'
 const Didgah = () => {
     return (
         <div className="dashboard-container ml">
@@ -7,7 +8,7 @@ const Didgah = () => {
             <div className="main-content">
                 <Header />
                 <div className='bg-white rounded-4 p-4 justify-content-end'>
-                    
+                    <img className='p-clear' src={dImg}></img>
                 </div>
                 
             </div>
