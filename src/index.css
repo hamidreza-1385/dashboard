@@ -88,3 +88,6 @@ body {
 .ml{
   margin-left: 250px;
 }
+.decoration-vip{
+  text-decoration: line-through;
+}

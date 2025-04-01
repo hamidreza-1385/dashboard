@@ -9,10 +9,13 @@ import Poshtibani from './pages/Poshtibani';
 import Didgah from './pages/Didgah';
 import HesabKarbary from './pages/HesabKarbary';
 import ListVazayef from './pages/ListVazayef';
+import { TaskProvider } from './context/TaskContext';
+
 
 function App() {
     return (
         <Router>
+            <TaskProvider>
             <Routes>
                 <Route path="/" element={<Login />} />
                 <Route path="/dashboard" element={<Dashboard />} />
@@ -24,6 +27,7 @@ function App() {
                 <Route path='/poshtibani' element={<Poshtibani/>}/>
                 <Route path='/didgah' element={<Didgah/>}/>
             </Routes>
+            </TaskProvider>
         </Router>
     );
 }
