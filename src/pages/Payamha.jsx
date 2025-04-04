@@ -7,7 +7,7 @@ const Payamha = () => {
             <Sidebar />
             <div className="main-content">
                 <Header />
-                <div className='bg-white rounded-4 p-4 justify-content-end'>
+                <div className='bg-light rounded-4 p-4 justify-content-end'>
                     <img className='p-clear' src={pImg}></img>
                 </div>
                 

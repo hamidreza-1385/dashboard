@@ -91,3 +91,13 @@ body {
 .decoration-vip{
   text-decoration: line-through;
 }
+.no-border:focus {
+  outline: none;
+  box-shadow: none;
+  border: none;
+}
+.no-border{
+  outline: none;
+  box-shadow: none;
+  border: none;
+}

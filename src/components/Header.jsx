@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Header = () => {
     return (
         <header className="header ">
-            <div className="up d-flex justify-content-between bg-white px-4 py-3 align-items-center rounded-4">
+            <div className="up d-flex justify-content-between bg-light px-4 py-3 align-items-center rounded-4">
                 <section className="d-flex">
                     <p className="icon-h"><FontAwesomeIcon icon={faUser}className="mx-2"/></p>
                     <p className="icon-h"><FontAwesomeIcon icon={faBell}className="mx-2"/></p>
