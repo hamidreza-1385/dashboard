@@ -101,3 +101,44 @@ body {
   box-shadow: none;
   border: none;
 }
+.bg-prp{
+  background-color: #9900d5;
+}
+.c-s tbody tr:nth-child(odd){
+  background-color: #f1f1f1;
+}
+.c-s tbody tr:nth-child(even){
+  background-color: #e0b3ff;
+}
+.bg-log{
+  background-image: url('./img/log.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+.bg-chgh{
+  background-color: #005187;
+}
+.logh{
+  border-bottom: 2px solid #c4ccff;
+  border-bottom-right-radius: 20px;
+  border-top:  2px solid #000a4c;
+  border-top-left-radius: 20px;
+}
+.inp{
+  border: 0;
+  outline: none;
+  width: 90%;
+  border-bottom: 2px solid #c4ccff;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: #000a4c00;
+  color: white;
+  
+}
+.bg-p1{
+  background-color: #c4caff;
+}
+.text-sp{
+  color: #000a4c;
+}

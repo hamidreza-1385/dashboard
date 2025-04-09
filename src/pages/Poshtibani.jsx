@@ -1,5 +1,6 @@
 import Sidebar from '../components/Sidebar';
 import Header from '../components/Header';
+import TicketDashboard from '../components/TicketDashboard';
 
 const Poshtibani = () => {
     return (
@@ -7,7 +8,9 @@ const Poshtibani = () => {
             <Sidebar />
             <div className="main-content">
                 <Header />
-                poshtibani
+                <div className='bg-light rounded-4 p-4 justify-content-end'>
+                <TicketDashboard/>
+                </div>
             </div>
         </div>
     );

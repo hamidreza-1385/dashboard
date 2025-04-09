@@ -11,7 +11,7 @@ const Login = () => {
 
     const handleLogin = (e) => {
         e.preventDefault();
-        if (username === 'demo' && password === 'demo1234') {
+        if (username === 'demo' && password === '1234') {
             navigate('/dashboard'); // هدایت به صفحه داشبورد
         } else {
             alert('نام کاربری یا رمز عبور اشتباه است!');
@@ -19,24 +19,33 @@ const Login = () => {
     };
 
     return (
-        <div className="login-container">
-            <h2>ورود به حساب کاربری</h2>
-            <form onSubmit={handleLogin}>
+        <div className="  login-container bg-log p-3 justify-content-end">
+            <div className='col-5 bg-chgh rounded-5 text-center m-5 p-5'>
+            <div className='d-flex justify-content-center mb-5'><h2 className='text-white logh p-3'>ورود به حساب کاربری</h2></div>
+            <form onSubmit={handleLogin} className='my-5'>
+                <div>
                 <input
+                    className='inp inpf px-4 py-2 my-4'
                     type="text"
-                    placeholder="نام کاربری"
+                    placeholder="userame : demo"
                     value={username}
                     onChange={(e) => setUsername(e.target.value)}
                 />
+                </div>
+                <div>
                 <input
+                    className='inp inpf px-4 py-2 my-4'
                     type="password"
-                    placeholder="رمز عبور"
+                    placeholder="password : 1234"
                     value={password}
                     onChange={(e) => setPassword(e.target.value)}
                 />
-                <button type="submit"><FontAwesomeIcon icon={faRightFromBracket}/>ورود</button>
+                
+                </div>
+                <button className='mt-5 bg-white border-0 px-5 py-3 rounded-4 text-sp' type="submit"><FontAwesomeIcon icon={faRightFromBracket}/>ورود</button>
                 {/* <Link to={'/dashboard'}><button type="submit"><FontAwesomeIcon icon={faRightFromBracket}/>ورود</button></Link> */}
             </form>
+            </div>
         </div>
     );
 };
