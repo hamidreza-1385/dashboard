@@ -14,7 +14,7 @@ import { TaskProvider } from './context/TaskContext';
 
 function App() {
     return (
-        <Router>
+        <Router basename='/dashboard'>
             <TaskProvider>
             <Routes>
                 <Route path="/" element={<Login />} />
