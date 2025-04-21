@@ -8,7 +8,7 @@ const Didgah = () => {
             <div className="main-content">
                 <Header />
                 <div className='bg-light rounded-4 p-4 justify-content-end'>
-                    <img className='p-clear' src={dImg}></img>
+                    <img className='p-clear img-fluid' src={dImg}></img>
                 </div>
                 
             </div>

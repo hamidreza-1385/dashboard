@@ -9,7 +9,7 @@ const Eshterak = () => {
             <div className="main-content">
                 <Header />
                 <div className='bg-light rounded-4 p-4 justify-content-end'>
-                    <img className='p-clear' src={eImg}></img>
+                    <img className='p-clear img-fluid' src={eImg}></img>
                 </div>
             </div>
         </div>
