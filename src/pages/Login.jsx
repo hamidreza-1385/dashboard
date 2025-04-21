@@ -19,8 +19,8 @@ const Login = () => {
     };
 
     return (
-        <div className="  login-container bg-log p-3 justify-content-end">
-            <div className='col-5 bg-chgh rounded-5 text-center m-5 p-5'>
+        <div className="  login-container bg-log p-lg-3 p-1 justify-content-end">
+            <div className='col-lg-5 col-11 bg-chgh rounded-5 text-center m-lg-5 m-2 p-lg-5 p-3 pt-5'>
             <div className='d-flex justify-content-center mb-5'><h2 className='text-white logh p-3'>ورود به حساب کاربری</h2></div>
             <form onSubmit={handleLogin} className='my-5'>
                 <div>
