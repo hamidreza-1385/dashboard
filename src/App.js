@@ -10,12 +10,15 @@ import Didgah from './pages/Didgah';
 import HesabKarbary from './pages/HesabKarbary';
 import ListVazayef from './pages/ListVazayef';
 import { TaskProvider } from './context/TaskContext';
+import { TicketContext } from './context/TicketContext';
 
 
 function App() {
     return (
         <Router basename='/dashboard'>
+            
             <TaskProvider>
+            <TicketContext>
             <Routes>
                 <Route path="/" element={<Login />} />
                 <Route path="/dashboard" element={<Dashboard />} />
@@ -27,6 +30,7 @@ function App() {
                 <Route path='/poshtibani' element={<Poshtibani/>}/>
                 <Route path='/didgah' element={<Didgah/>}/>
             </Routes>
+            </TicketContext>
             </TaskProvider>
         </Router>
     );
