@@ -5,7 +5,7 @@ import eImg from '../img/e.png'
 const Eshterak = () => {
     return (
         <div className="dashboard-container ml">
-            <Sidebar />
+            <div className='d-none d-lg-block'><Sidebar/></div>
             <div className="main-content">
                 <Header />
                 <div className='bg-light rounded-4 p-4 justify-content-end'>
